@@ -1,0 +1,63 @@
+
+*{
+    margin: 0%;
+    border: 0%;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    background-color: beige;
+    
+}
+
+h1{
+    color: rgb(6, 64, 135);
+    
+}
+
+.container{
+    height: 70vh; 
+    
+}
+.win{
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.boxes{
+    height: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+
+
+.box:hover{
+    opacity: 50%;;
+   
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 45px;
+   
+    
+}
+
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
